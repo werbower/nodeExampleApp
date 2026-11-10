@@ -13,7 +13,7 @@ export const errHandler: ErrorRequestHandler= (err, req, res, next)=> {
 }
 
 defRouter.get('/', (req, res)=> {
-  res.json({message: 'hello'})
+  res.json({message: 'hello message test 2'})
 })
 
 defRouter.get('/health', (req, res)=> {
